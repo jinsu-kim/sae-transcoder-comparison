@@ -10,7 +10,7 @@ We compare single-feature discrimination before and after JumpReLU, test encoder
 
 ## Analysis overview
 
-![Prepared arrays branch into activation analysis, encoder interventions, and sentence evaluation, with each analysis leading downward to its results.](docs/analysis-overview.svg)
+![Prepared arrays branch into activation analysis, encoder interventions, and sentence evaluation, with each analysis leading downward to its results.](docs/analysis-overview-dark.svg)
 
 ## Analyses
 

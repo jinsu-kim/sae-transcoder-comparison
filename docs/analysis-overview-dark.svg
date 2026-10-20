@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1140" height="360" viewBox="0 0 1140 360" role="img" aria-labelledby="title desc">
-  <title id="title">SAE–Transcoder analysis overview</title>
+  <title id="title">SAE–Transcoder analysis overview — dark theme</title>
   <desc id="desc">Prepared arrays with fixed selected features feed three parallel analyses. Activation analysis compares, restores, and decomposes activations. Encoder interventions rotate, remove, and rescale components. Sentence evaluation detects entities and retrieves sentences. Each branch leads downward to its results.</desc>
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
