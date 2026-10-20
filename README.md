@@ -10,15 +10,7 @@ We compare single-feature discrimination before and after JumpReLU, test encoder
 
 ## Analysis overview
 
-```mermaid
-flowchart TB
-    A["Prepared arrays<br/>Fixed selected features"] --> B["Activation analysis<br/>Compare · Restore · Decompose"]
-    A --> C["Encoder interventions<br/>Rotate · Remove · Rescale"]
-    A --> D["Sentence evaluation<br/>Detect · Retrieve"]
-    B --> E["AUROC and loss terms"]
-    C --> F["Intervention AUROCs"]
-    D --> G["F1 and retrieval performance"]
-```
+![Prepared arrays branch into activation analysis, encoder interventions, and sentence evaluation, with each analysis leading downward to its results.](docs/analysis-overview.svg)
 
 ## Analyses
 
