@@ -1,0 +1,81 @@
+[
+  {
+    "source": "b1_input_row_alignment/auc_stages.py",
+    "sha256": "5b9509a7628fff3d6702005b578568bd30dcff3ef2f32cdbe8eda67d6c729854",
+    "destination": "common.py",
+    "functions": [
+      "auc"
+    ]
+  },
+  {
+    "source": "v128_b1_subthreshold_reactivation/run.py",
+    "sha256": "53b4d461ed0b77e3b08130b50a7d578bc91eb35c836a54d0bab1f4b8d7674b2f",
+    "destination": "restore_activations.py",
+    "functions": [
+      "restoration",
+      "gain_formula",
+      "summarize"
+    ]
+  },
+  {
+    "source": "v133_nonpositive_rank_loss/run.py",
+    "sha256": "f5a908538354c68ab247708db847dd1a7ca9d7c54df197cacb79168008004402",
+    "destination": "decompose_loss.py",
+    "functions": [
+      "interval",
+      "statistics",
+      "terms"
+    ]
+  },
+  {
+    "source": "v148_output_mode_dependence_equalization/run.py",
+    "sha256": "43825362d1779a03d8ce56e5d5b1afc9cdd5691691db8274d5002d35c42efb6c",
+    "destination": "rotate_encoder.py",
+    "functions": [
+      "split",
+      "reference_fraction",
+      "weights_delta"
+    ]
+  },
+  {
+    "source": "v150_output_mode_matched_angle/run.py",
+    "sha256": "cdfa456d33167835972c5ae11f83d40618562d080c82601abbfc1b5ba4ea495d",
+    "destination": "rotate_encoder.py",
+    "functions": [
+      "angles",
+      "matched_edit",
+      "control",
+      "geometry_audit"
+    ]
+  },
+  {
+    "source": "v159_encoder_pc_component_roles/run.py",
+    "sha256": "4f06823250235add96c8ccb3b04073c5cea7c38889d91baf6cd5705c04e47e9f",
+    "destination": "edit_components.py",
+    "functions": [
+      "basis",
+      "components",
+      "matched_random"
+    ]
+  },
+  {
+    "source": "v139_semantic_detection/run.py",
+    "sha256": "ff8eb6eab5f693671971f16149b88b9680eb27af598d6d991ea61ed6fd24fe4a",
+    "destination": "detect_entities.py",
+    "functions": [
+      "auc_bank",
+      "cutoff",
+      "counts"
+    ]
+  },
+  {
+    "source": "v141_fixed_review_budget/analyze.py",
+    "sha256": "dc4054f1a717e8f484861685efc2ac5cf8f76d4d785809241449d644b027edcb",
+    "destination": "retrieve_sentences.py",
+    "functions": [
+      "ranking",
+      "retrieval",
+      "bootstrap_tp"
+    ]
+  }
+]
