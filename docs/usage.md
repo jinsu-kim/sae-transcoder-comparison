@@ -4,7 +4,7 @@
 
 ## Setup
 
-Use Python 3.9 or newer:
+Use Python 3.10 or newer:
 
 ```sh
 python -m pip install -r requirements.txt

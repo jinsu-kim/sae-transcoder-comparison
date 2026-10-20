@@ -30,7 +30,7 @@ flowchart LR
 
 ## Quick start
 
-Python **3.9+** · NumPy · SciPy · CPU
+Python **3.10+** · NumPy · SciPy · CPU
 
 ```sh
 git clone https://github.com/jinsu-kim/sae-transcoder-comparison.git
