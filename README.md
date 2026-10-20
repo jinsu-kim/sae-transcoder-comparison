@@ -12,9 +12,9 @@ We compare single-feature discrimination before and after JumpReLU, test encoder
 
 ```mermaid
 flowchart TB
-    A["Prepared arrays<br/>Fixed selected features"] --> B["Activation analysis<br/>Compare<br/>Restore<br/>Decompose"]
-    A --> C["Encoder interventions<br/>Rotate<br/>Remove<br/>Rescale"]
-    A --> D["Sentence evaluation<br/>Detect<br/>Retrieve"]
+    A["Prepared arrays<br/>Fixed selected features"] --> B["Activation analysis<br/>Compare · Restore · Decompose"]
+    A --> C["Encoder interventions<br/>Rotate · Remove · Rescale"]
+    A --> D["Sentence evaluation<br/>Detect · Retrieve"]
     B --> E["AUROC and loss terms"]
     C --> F["Intervention AUROCs"]
     D --> G["F1 and retrieval performance"]
